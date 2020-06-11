@@ -96,7 +96,7 @@ const CreatePoint = () => {
     function handleInputChange(event: ChangeEvent<HTMLInputElement>){
         const {name, value} = event.target;
         setFormData({
-            ... formData, [name]: value
+            ...formData, [name]: value
         })
     }
 
@@ -107,7 +107,7 @@ const CreatePoint = () => {
             const filteredItems = selectedItems.filter(item => item !== id)
             setSelectedItems(filteredItems);
         } else {
-            setSelectedItems([ ... selectedItems, id])
+            setSelectedItems([ ...selectedItems, id])
         }
     }
 
