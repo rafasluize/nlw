@@ -107,7 +107,7 @@ const CreatePoint = () => {
             const filteredItems = selectedItems.filter(item => item !== id)
             setSelectedItems(filteredItems);
         } else {
-            setSelectedItems([ ... selectedItems, id])
+            setSelectedItems([ ...selectedItems, id])
         }
     }
 
